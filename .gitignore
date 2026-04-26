@@ -1,0 +1,51 @@
+# Luxe Tech Git Ignore
+
+# Documentation (Requested to ignore)
+docs/
+
+# Java / Spring Boot
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/resources/archetype-resources/**
+!**/src/test/resources/archetype-resources/**
+*.class
+*.log
+*.ctxt
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Maven
+.mvn/
+mvnw
+mvnw.cmd
+
+# IDEs
+.idea/
+*.iml
+.vscode/
+.project
+.classpath
+.settings/
+*.swp
+*.DS_Store
+
+# Node.js (Frontend)
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS
+Thumbs.db
+Desktop.ini
